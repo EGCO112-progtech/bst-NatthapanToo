@@ -17,11 +17,11 @@ int main( int argc, char** argv )
    preOrder( rootPtr );*/
 
    // traverse the tree inOrder
-   printf("\nThe inOrder   traversal is: " );
+   //printf("\nThe inOrder   traversal is: " );
    inOrder( b.root );
-   printf("\nThe preOrder  traversal is: " );
+   //printf("\nThe preOrder  traversal is: " );
    preOrder( b.root );
-   printf("\nThe postOrder traversal is: " );
+   //printf("\nThe postOrder traversal is: " );
    postOrder( b.root );
    printf("\n");
    inOrdersite( b.root ,0);
